@@ -1,0 +1,43 @@
+body {
+  font-family: Helvetica;
+}
+
+body h1 {
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+  background-image: url('../images/pattern.jpeg');
+}
+
+/* common style for h2 subheaders */
+
+#brushes h2,
+#frames h2,
+#paint h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+/* specific style for h2 subheaders */
+
+#brushes h2 {
+  background-color: mediumspringgreen;
+}
+
+#frames h2 {
+  background-color: lightcoral;
+}
+
+#paint h2 {
+  background-color: skyblue;
+}
+
+/* style span tag for common highlight text*/
+
+.highlight {
+  font-family: Helvetica;
+  font-weight: bold;
+  color: blue;
+}
